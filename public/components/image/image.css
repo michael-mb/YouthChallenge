@@ -1,0 +1,1 @@
+.image-sm {	max-width: 300px;}@media (min-width: 576px) {	.image-sm {		max-width: 100%;	}}
