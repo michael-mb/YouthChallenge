@@ -1,5 +1,4 @@
 <template>
-  <div class="page">
     <Header></Header>
 
     <IntroSlider/>
@@ -11,8 +10,6 @@
     <QuoteSection/>
 
     <Footer></Footer>
-
-  </div>
 </template>
 
 <script>

@@ -8,7 +8,7 @@
             <div class="navbar-panel">
               <button class="navbar-switch linearicons-menu" data-multi-switch='{"targets":".rd-navbar","scope":".rd-navbar","isolate":"[data-multi-switch]"}'></button>
               <!-- Logo-->
-              <div class="logo"><a class="logo-link" href="index.html"><img class="logo-image-default" src="images/yc_logo_trans.png" alt="FundMe" width="50" height="50"/><img class="logo-image-inverse" src="images/yc_logo_trans.png" alt="FundMe" width="70" height="50"/></a></div>
+              <div class="logo"><a class="logo-link" href="/"><img class="logo-image-default" src="images/yc_logo_trans.png" alt="FundMe" width="50" height="50"/><img class="logo-image-inverse" src="images/yc_logo_trans.png" alt="FundMe" width="70" height="50"/></a></div>
             </div>
           </div>
           <div class="navbar-cell align-items-center">
@@ -27,7 +27,7 @@
                   </li>
                   <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="single-cause.html">Magazine</a>
                   </li>
-                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="single-cause.html">Readers</a>
+                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="/readers">Readers</a>
                   </li>
                   <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="single-cause.html">Dance</a>
                   </li>

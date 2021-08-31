@@ -54,7 +54,7 @@
             <!-- Copyright-->
             <p class="rights"><span>&copy; 2021.&nbsp;</span><span>YouthChallenge</span><span>. All rights reserved.&nbsp;</span></p>
             <div>
-              <div class="group-10 group-lg-30"><a class="icon icon-md icon-link mdi-facebook" href="#"></a><a class="icon icon-md icon-link mdi-youtube-play" href="#"></a><a class="icon icon-md icon-link mdi-twitter" href="#"></a></div>
+              <div class="group-10 group-lg-30"><a class="icon icon-md icon-link mdi-whatsapp" href="https://chat.whatsapp.com/Cw3UUZDoYL24nhnsXN4YeP"></a><a class="icon icon-md icon-link mdi-instagram" href="https://www.instagram.com/youthchallenge_int/"></a></div>
             </div>
           </div>
         </div>
