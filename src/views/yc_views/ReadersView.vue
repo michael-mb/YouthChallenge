@@ -121,7 +121,7 @@
             <div class="col-6 col-md-4">
               <!-- Counter-->
               <div class="counter counter-bordered">
-                <div class="counter-value"><span data-counter="">10</span><span class="counter-unit">k</span><span class="counter-icon fl-bigmug-line-two317"></span>
+                <div class="counter-value"><span data-counter="">10</span><span class="counter-icon fl-bigmug-line-two317"></span>
                 </div>
                 <div class="counter-title">Runde Tische</div>
               </div>

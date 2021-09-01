@@ -10,8 +10,9 @@
                         image-link="images/423_324/yc_praise.jpg" page-link="#"/>
         <DepartmentElem title="Youth Challenge Magazine" description="Make clean water easily accessible for the inhabitants of Africa and India."
                         image-link="images/423_324/yc.jpg" page-link="#"/>
-        <DepartmentElem title="Youth Challenge Readers" description="Make clean water easily accessible for the inhabitants of Africa and India."
-                        image-link="images/423_324/yc_readers.jpg" page-link="#"/>
+        <DepartmentElem title="Youth Challenge Readers" description="YouthChallenge Readers ist eine Gruppe von jungen
+         Menschen mit einer Leidenschaft für das Lesen und dem Ziel, christliche Literatur in Deutschland zu fördern."
+                        image-link="images/423_324/yc_readers.jpg" page-link="/readers"/>
       </div>
 
       <div class="owl-carousel owl-carousel-bordered owl-nav-lg" data-owl="{&quot;nav&quot;:true,&quot;margin&quot;:0}" data-autoplay="false" data-loop="false" data-items="1" data-md-items="2" data-xl-items="3" data-xxl-items="4" data-animate='{"class":"fadeInUpBig"}'>

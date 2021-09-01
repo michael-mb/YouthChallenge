@@ -50,7 +50,7 @@
             <!-- Blurb link-->
             <div class="blurb blurb-link">
               <div class="blurb-icon fl-bigmug-line-chat51"></div>
-              <h4 class="blurb-title"><a href="contact.html">Kontakt aufnehmen</a></h4>
+              <h4 class="blurb-title"><a href="/contact">Kontakt aufnehmen</a></h4>
             </div>
           </li>
         </ul>
