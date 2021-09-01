@@ -10,7 +10,6 @@
       </div>
     </section>
 
-    <!-- About us-->
     <section class="section-md bg-transparent">
       <div class="container">
         <div class="row row-25 row-xl-55 justify-content-between flex-md-row-reverse align-items-center">
@@ -31,7 +30,7 @@
         </div>
       </div>
     </section>
-    <!-- About us 2-->
+
     <section class="section-double">
       <section class="section-double-top section-md bg-100">
         <div class="container">

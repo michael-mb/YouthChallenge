@@ -27,7 +27,11 @@
                   </li>
                   <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="single-cause.html">Magazine</a>
                   </li>
+                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="/teens">Teens</a>
+                  </li>
                   <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="/readers">Readers</a>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="/orphans">Orphans & Widows</a>
                   </li>
                   <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="single-cause.html">Dance</a>
                   </li>
