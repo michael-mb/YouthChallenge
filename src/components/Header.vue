@@ -16,16 +16,16 @@
           </div>
           <div class="navbar-cell">
             <ul class="navbar-navigation rd-navbar-nav">
-              <li class="navbar-navigation-root-item"><a class="navbar-navigation-root-link" href="our-causes.html">Abteilungen</a>
+              <li class="navbar-navigation-root-item"><a class="navbar-navigation-root-link" href="#">Abteilungen</a>
                 <ul class="navbar-navigation-dropdown rd-navbar-dropdown">
                   <li class="navbar-navigation-back">
                     <button class="navbar-navigation-back-btn">Back</button>
                   </li>
-                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="single-cause.html">Media</a>
+                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="#">Media</a>
                   </li>
-                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="single-cause.html">Praises</a>
+                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="#">Praises</a>
                   </li>
-                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="single-cause.html">Magazine</a>
+                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="#">Magazine</a>
                   </li>
                   <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="/teens">Teens</a>
                   </li>
@@ -33,11 +33,11 @@
                   </li>
                   <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="/orphans">Orphans & Widows</a>
                   </li>
-                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="single-cause.html">Dance</a>
+                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="#">Dance</a>
                   </li>
-                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="single-cause.html">University</a>
+                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="#">University</a>
                   </li>
-                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="single-cause.html">YouthChallenge</a>
+                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="#">YouthChallenge</a>
                   </li>
                 </ul>
               </li>
