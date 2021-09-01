@@ -37,7 +37,7 @@
                   </li>
                 </ul>
               </li>
-              <li class="navbar-navigation-root-item"><a class="navbar-navigation-root-link" href="contact.html">Kontakt</a>
+              <li class="navbar-navigation-root-item"><a class="navbar-navigation-root-link" href="/contact">Kontakt</a>
               </li>
             </ul>
           </div>

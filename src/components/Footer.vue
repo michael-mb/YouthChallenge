@@ -16,7 +16,7 @@
             <div class="col-6 col-md-12 col-lg-6">
               <ul class="list list-sm">
                 <li class="list-item"><a class="link link-inherit" href="about-us.html">Über uns</a></li>
-                <li class="list-item"><a class="link link-inherit" href="contact.html">Kontakt</a></li>
+                <li class="list-item"><a class="link link-inherit" href="/contact">Kontakt</a></li>
               </ul>
             </div>
           </div>
