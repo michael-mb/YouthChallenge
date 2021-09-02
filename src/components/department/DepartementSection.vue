@@ -10,8 +10,10 @@
         <DepartmentElem title="Youth Challenge Teens" description="Teeneger bilden, die Christ lieben und Vorbild
          fürihreGeneration sind. Durch diese Teeneger ganze Familie in Christus (in Deutschland) gewinnen."
                         image-link="images/423_324/yc_teens.jpg" page-link="/teens"/>
-        <DepartmentElem title="Youth Challenge University" description="Make clean water easily accessible for the inhabitants of Africa and India."
-                        image-link="images/423_324/yc_uni.jpg" page-link="#"/>
+        <DepartmentElem title="Youth Challenge University" description="Studenten für Jesus gewinnen, sie zu Jünger Jesus ausbilden,
+         sodass sie ihre Kenntnisse und Wissen in ihren verschiedenen Bereichen benutzen, um das Evangelium zu verkünden und das Reich Gottes voranzutreiben."
+
+                        image-link="images/423_324/yc_uni.jpg" page-link="/university"/>
         <DepartmentElem title="Youth Challenge Praise" description="Make clean water easily accessible for the inhabitants of Africa and India."
                         image-link="images/423_324/yc_praise.jpg" page-link="#"/>
         <DepartmentElem title="Youth Challenge Magazine" description="Make clean water easily accessible for the inhabitants of Africa and India."

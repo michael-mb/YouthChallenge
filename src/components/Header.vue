@@ -35,7 +35,7 @@
                   </li>
                   <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="#">Dance</a>
                   </li>
-                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="#">University</a>
+                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="/university">University</a>
                   </li>
                   <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="#">YouthChallenge</a>
                   </li>

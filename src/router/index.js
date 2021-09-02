@@ -4,6 +4,7 @@ import ReadersView from "../views/yc_views/ReadersView";
 import ContactView from "../views/ContactView";
 import OrphansView from "../views/yc_views/OrphansView";
 import TeensView from "../views/yc_views/TeensView";
+import UniversityView from "../views/yc_views/UniversityView";
 
 const routes = [
   {
@@ -35,6 +36,11 @@ const routes = [
     path:'/teens',
     name: 'Teens',
     component: TeensView
+  },
+  {
+    path:'/university',
+    name: 'University',
+    component: UniversityView
   }
 ]
 
