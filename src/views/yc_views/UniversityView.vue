@@ -115,7 +115,7 @@
           <div class="col-6 col-md-5">
             <!-- Counter-->
             <div class="counter counter-bordered">
-              <div class="counter-value"><span data-counter="">Betreuung</span><span class="counter-icon fl-bigmug-line-two317"></span>
+              <div class="counter-value">Betreuung<span class="counter-icon fl-bigmug-line-two317"></span>
               </div>
               <div class="counter-title">Dafür sorgen, dass Studenten das akademische und das christliche Leben miteinander vereinbaren können</div>
             </div>
