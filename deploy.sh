@@ -11,4 +11,5 @@ git init
 git add -A
 git commit -m 'deploy'
 git push -f git@github.com:michael-mb/YouthChallenge.git master:gh-pages
+
 cd -
