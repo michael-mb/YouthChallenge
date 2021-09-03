@@ -21,13 +21,13 @@
                   <li class="navbar-navigation-back">
                     <button class="navbar-navigation-back-btn">Back</button>
                   </li>
-                  <li class="navbar-navigation-dropdown-item"><router-link class="navbar-navigation-dropdown-link" to="/teens">Teens</router-link>
+                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="/teens">Teens</a>
                   </li>
-                  <li class="navbar-navigation-dropdown-item"><router-link class="navbar-navigation-dropdown-link" to="/readers">Readers</router-link>
+                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="/readers">Readers</a>
                   </li>
-                  <li class="navbar-navigation-dropdown-item"><router-link class="navbar-navigation-dropdown-link" to="/orphans">Orphans & Widows</router-link>
+                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="/orphans">Orphans & Widows</a>
                   </li>
-                  <li class="navbar-navigation-dropdown-item"><router-link class="navbar-navigation-dropdown-link" to="/university">University</router-link>
+                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="/university">University</a>
                   </li>
                   <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="#">Media</a>
                   </li>
