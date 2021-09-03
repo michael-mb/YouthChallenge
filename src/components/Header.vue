@@ -21,21 +21,21 @@
                   <li class="navbar-navigation-back">
                     <button class="navbar-navigation-back-btn">Back</button>
                   </li>
-                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="#">Media</a>
-                  </li>
-                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="#">Praises</a>
-                  </li>
-                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="#">Magazine</a>
-                  </li>
                   <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="/teens">Teens</a>
                   </li>
                   <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="/readers">Readers</a>
                   </li>
                   <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="/orphans">Orphans & Widows</a>
                   </li>
-                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="#">Dance</a>
-                  </li>
                   <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="/university">University</a>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="#">Media</a>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="#">Praises</a>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="#">Magazine</a>
+                  </li>
+                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="#">Dance</a>
                   </li>
                   <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="#">YouthChallenge</a>
                   </li>
