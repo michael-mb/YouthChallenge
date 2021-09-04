@@ -10,42 +10,44 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
-  },
-  {
-    path: '/about',
-    name: 'About',
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    component: Home,
+    props: true
   },
   {
     path:'/readers',
     name: 'Readers',
-    component: ReadersView
+    component: ReadersView,
+    props: true
   },
   {
     path:'/contact',
     name: 'Contact',
-    component: ContactView
+    component: ContactView,
+    props: true
   },
   {
     path:'/orphans',
     name: 'Orphans',
-    component: OrphansView
+    component: OrphansView,
+    props: true
+
   },
   {
     path:'/teens',
     name: 'Teens',
-    component: TeensView
+    component: TeensView,
+    props: true
   },
   {
     path:'/university',
     name: 'University',
-    component: UniversityView
-  }
+    component: UniversityView,
+    props: true
+  },
 ]
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+    history: createWebHistory(process.env.BASE_URL),
   routes
 })
 

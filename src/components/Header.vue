@@ -1,6 +1,6 @@
 <template>
   <!--RD Navbar-->
-  <header class="section rd-navbar-wrap rd-navbar-wrap-absolute">
+  <header class="section rd-navbar-wrap rd-navbar-wrap-absolute hidden" id="headerId">
     <nav class="rd-navbar rd-navbar-creative">
       <div class="navbar-container">
         <div class="navbar-row navbar-row-left">
@@ -8,7 +8,7 @@
             <div class="navbar-panel">
               <button class="navbar-switch linearicons-menu" data-multi-switch='{"targets":".rd-navbar","scope":".rd-navbar","isolate":"[data-multi-switch]"}'></button>
               <!-- Logo-->
-              <div class="logo"><a class="logo-link" href="/"><img class="logo-image-default" src="images/yc_logo_trans.png" alt="FundMe" width="50" height="50"/><img class="logo-image-inverse" src="images/yc_logo_trans.png" alt="FundMe" width="70" height="50"/></a></div>
+              <div class="logo"><router-link class="logo-link" to="/"><img class="logo-image-default" src="images/yc_logo_trans.png" alt="FundMe" width="50" height="50"/><img class="logo-image-inverse" src="images/yc_logo_trans.png" alt="FundMe" width="70" height="50"/></router-link></div>
             </div>
           </div>
           <div class="navbar-cell align-items-center">
@@ -21,13 +21,13 @@
                   <li class="navbar-navigation-back">
                     <button class="navbar-navigation-back-btn">Back</button>
                   </li>
-                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="/teens">Teens</a>
+                  <li class="navbar-navigation-dropdown-item"><router-link class="navbar-navigation-dropdown-link" to="/teens">Teens</router-link>
                   </li>
-                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="/readers">Readers</a>
+                  <li class="navbar-navigation-dropdown-item"><router-link class="navbar-navigation-dropdown-link" to="/readers">Readers</router-link>
                   </li>
-                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="/orphans">Orphans & Widows</a>
+                  <li class="navbar-navigation-dropdown-item"><router-link class="navbar-navigation-dropdown-link" to="/orphans">Orphans & Widows</router-link>
                   </li>
-                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="/university">University</a>
+                  <li class="navbar-navigation-dropdown-item"><router-link class="navbar-navigation-dropdown-link" to="/university">University</router-link>
                   </li>
                   <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="#">Media</a>
                   </li>
@@ -68,10 +68,16 @@
 
 <script>
 export default {
-  name: "Header"
+  name: "Header",
+  beforeRouteUpdate(){
+    let header = document.getElementById("headerId")
+    header.classList.add("hidden")
+  }
 }
 </script>
 
 <style scoped>
-
+.hidden{
+  visibility: hidden;
+}
 </style>

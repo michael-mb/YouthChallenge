@@ -63,7 +63,19 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 export default {
   name: "ContactView",
-  components: {Footer, Header}
+  components: {Footer, Header},
+  beforeCreate() {
+    if (localStorage.getItem('reloaded')) {
+      localStorage.removeItem('reloaded');
+    } else {
+      localStorage.setItem('reloaded', '1');
+      this.$router.go()
+    }
+  },
+  mounted() {
+    let header = document.getElementById("headerId")
+    header.classList.remove("hidden")
+  },
 }
 </script>
 
