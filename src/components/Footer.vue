@@ -5,7 +5,7 @@
       <div class="row row-30">
         <div class="col-md-6">
           <!-- Logo-->
-          <div class="logo footer-logo"><a class="logo-link" href="index.html"><img class="logo-image-default" src="images/yc_logo_trans.png" alt="FundMe" width="117" height="50"/><img class="logo-image-inverse" src="images/yc_logo_trans.png" alt="FundMe" width="117" height="50"/></a></div>
+          <div class="logo footer-logo"><router-link class="logo-link" to="/"><img class="logo-image-default" src="images/yc_logo_trans.png" alt="FundMe" width="117" height="50"/><img class="logo-image-inverse" src="images/yc_logo_trans.png" alt="FundMe" width="117" height="50"/></router-link></div>
           <p>Youthchallenge ist eine Bewegung von jungen Christen mit einer Leidenschaft für Gott und dem Ziel, Deutschland mit dem Evangelium zu erobern</p>
           <a class="btn btn-primary" href="#">Mehr Erfahren</a>
         </div>
@@ -16,7 +16,7 @@
             <div class="col-6 col-md-12 col-lg-6">
               <ul class="list list-sm">
                 <li class="list-item"><a class="link link-inherit" href="about-us.html">Über uns</a></li>
-                <li class="list-item"><a class="link link-inherit" href="/contact">Kontakt</a></li>
+                <li class="list-item"><router-link class="link link-inherit" to="/contact">Kontakt</router-link></li>
               </ul>
             </div>
           </div>
