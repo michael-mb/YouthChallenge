@@ -89,10 +89,10 @@ export default {
   name: "OrphansView",
   components: {Header, Footer},
   beforeCreate() {
-    if (window.localStorage.getItem('reloaded')) {
-      window.localStorage.removeItem('reloaded');
+    if(sessionStorage.getItem('reloaded')) {
+      sessionStorage.removeItem('reloaded');
     } else {
-      window.localStorage.setItem('reloaded', '1');
+      sessionStorage.setItem('reloaded', '1');
       this.$router.go()
     }
   },
