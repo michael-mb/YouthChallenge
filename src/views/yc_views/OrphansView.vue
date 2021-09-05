@@ -90,6 +90,7 @@ export default {
   components: {Header, Footer},
   beforeCreate() {
     if(sessionStorage.getItem('reloaded')) {
+      alert("Michael")
       sessionStorage.removeItem('reloaded');
     } else {
       sessionStorage.setItem('reloaded', '1');
