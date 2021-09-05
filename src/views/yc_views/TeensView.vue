@@ -201,7 +201,7 @@ export default {
       sessionStorage.removeItem('reloaded');
     } else {
       sessionStorage.setItem('reloaded', '1');
-      this.$router.go()
+      location.reload();
     }
   },
   mounted() {
