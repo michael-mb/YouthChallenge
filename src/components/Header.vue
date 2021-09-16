@@ -8,7 +8,7 @@
             <div class="navbar-panel">
               <button class="navbar-switch linearicons-menu" data-multi-switch='{"targets":".rd-navbar","scope":".rd-navbar","isolate":"[data-multi-switch]"}'></button>
               <!-- Logo-->
-              <div class="logo"><router-link class="logo-link" to="/"><img class="logo-image-default" src="images/yc_logo_trans.png" alt="FundMe" width="50" height="50"/><img class="logo-image-inverse" src="images/yc_logo_trans.png" alt="FundMe" width="70" height="50"/></router-link></div>
+              <div class="logo"><router-link class="logo-link" to="/"><img class="logo-image-default" src="images/yc_logo_trans.png" alt="FundMe" width="100" height="100"/><img class="logo-image-inverse" src="images/yc_logo_trans.png" alt="FundMe" width="100" height="100"/></router-link></div>
             </div>
           </div>
           <div class="navbar-cell align-items-center">
