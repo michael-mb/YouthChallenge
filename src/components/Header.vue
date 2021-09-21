@@ -41,7 +41,7 @@
                   </li>
                 </ul>
               </li>
-              <li class="navbar-navigation-root-item"><a class="navbar-navigation-root-link" href="/contact">Kontakt</a>
+              <li class="navbar-navigation-root-item"><router-link class="navbar-navigation-root-link" to="/contact">Kontakt</router-link>
               </li>
             </ul>
           </div>
