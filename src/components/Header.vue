@@ -1,6 +1,6 @@
 <template>
   <!--RD Navbar-->
-  <header class="section rd-navbar-wrap rd-navbar-wrap-absolute hidden" id="headerId">
+  <header class="section rd-navbar-wrap rd-navbar-wrap-absolute" id="headerId">
     <nav class="rd-navbar rd-navbar-creative">
       <div class="navbar-container">
         <div class="navbar-row navbar-row-left">
@@ -69,15 +69,8 @@
 <script>
 export default {
   name: "Header",
-  beforeRouteUpdate(){
-    let header = document.getElementById("headerId")
-    header.classList.add("hidden")
-  }
 }
 </script>
 
 <style scoped>
-.hidden{
-  visibility: hidden;
-}
 </style>

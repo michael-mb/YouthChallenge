@@ -5,6 +5,7 @@ import ContactView from "../views/ContactView";
 import OrphansView from "../views/yc_views/OrphansView";
 import TeensView from "../views/yc_views/TeensView";
 import UniversityView from "../views/yc_views/UniversityView";
+import YCRetreat2021 from "../views/events/YCRetreat2021";
 
 const routes = [
   {
@@ -43,12 +44,19 @@ const routes = [
     name: 'University',
     component: UniversityView,
     props: true
-  }
+  },
+  {
+    path:'/retreat',
+    name: 'Retreat',
+    component: YCRetreat2021,
+    props: true
+  },
 ]
 
 const router = createRouter({
   history: createWebHashHistory(process.env.BASE_URL),
   routes
 })
+
 
 export default router

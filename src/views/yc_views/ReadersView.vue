@@ -175,18 +175,6 @@ import Footer from "../../components/Footer";
 export default {
   name: "ReadersView",
   components: {Footer, Header},
-  beforeCreate() {
-    if(sessionStorage.getItem('reloaded')) {
-      sessionStorage.removeItem('reloaded');
-    } else {
-      sessionStorage.setItem('reloaded', '1');
-      location.reload();
-    }
-  },
-  mounted() {
-    let header = document.getElementById("headerId")
-    header.classList.remove("hidden")
-  },
 }
 </script>
 

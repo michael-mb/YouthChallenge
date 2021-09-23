@@ -134,18 +134,6 @@ import Header from "../../components/Header";
 export default {
   name: "UniversityView",
   components: {Header, Footer},
-  beforeCreate() {
-    if(sessionStorage.getItem('reloaded')) {
-      sessionStorage.removeItem('reloaded');
-    } else {
-      sessionStorage.setItem('reloaded', '1');
-      location.reload();
-    }
-  },
-  mounted() {
-    let header = document.getElementById("headerId")
-    header.classList.remove("hidden")
-  }
 }
 </script>
 
