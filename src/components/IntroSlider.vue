@@ -5,7 +5,9 @@
       <div class="swiper-double-container" data-swiper-double-container>
         <div class="swiper-container swiper-double-container-image" data-swiper-double-image data-animate='{"class":"fadeIn"}'>
           <div class="swiper-wrapper">
-            <div class="swiper-slide" style="background-image: url(images/destiny-camp.jpeg)"></div>
+            <div class="swiper-slide" style="background-image: url(images/destiny-camp.jpeg); position:relative;">
+              <div class="black-opacity"></div>
+            </div>
             <div class="swiper-slide" style="background-image: url(images/727_930/youth_1.jpg)"></div>
             <div class="swiper-slide" style="background-image: url(images/727_930/praise.jpg)"></div>
             <div class="swiper-slide" style="background-image: url(images/727_930/youth_2.jpg)"></div>
@@ -73,5 +75,10 @@ export default {
 </script>
 
 <style scoped>
-
+.black-opacity{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #0000009e;
+}
 </style>
