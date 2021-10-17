@@ -5,7 +5,7 @@
       <div class="swiper-double-container" data-swiper-double-container>
         <div class="swiper-container swiper-double-container-image" data-swiper-double-image data-animate='{"class":"fadeIn"}'>
           <div class="swiper-wrapper">
-            <div class="swiper-slide" style="background-image: url(images/destiny-camp.jpeg); position:relative;">
+            <div class="swiper-slide" style="background-image: url(images/destiny-camp.jpg); position:relative;">
               <div class="black-opacity"></div>
             </div>
             <div class="swiper-slide" style="background-image: url(images/727_930/youth_1.jpg)"></div>
@@ -21,7 +21,7 @@
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="swiper-slide-content">
-                <h1>Von 08.10 bis 10.10 findet unsere Auszeit statt</h1>
+                <h1>Von 15.04 bis 17.04 findet unsere Auszeit statt</h1>
                 <router-link class="btn" to="/retreat">Mehr Erfahren</router-link>
               </div>
             </div>

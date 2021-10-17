@@ -1,5 +1,5 @@
 <template>
-  <section class="section-xs service-section service-section-fullwidth bg-image context-dark text-center" style="background-image: url(images/destiny-camp-2.jpeg)">
+  <section class="section-xs service-section service-section-fullwidth bg-image context-dark text-center" style="background-image: url(images/destiny-camp.jpg)">
     <div class="overlay">
       <div class="service-section-header">
         <div class="container">
@@ -12,11 +12,10 @@
           <div class="row row-30 row-xl-55 justify-content-center">
             <div class="col-md-10 col-lg-8">
               <h1>Coming Soon</h1>
-              <p class="font-weight-medium">In wenigen Tagen findet unsere Auszeit statt, also verpassen Sie nicht die Gelegenheit, daran teilzunehmen. Klicken Sie einfach auf diesen Link, um sich anzumelden, und wir werden Sie anschließend kontaktieren.</p>
+              <p class="font-weight-medium">In wenigen Tagen findet unsere Auszeit statt, also verpassen Sie nicht die Gelegenheit, daran teilzunehmen.</p>
               <!-- Countdown-->
 
-              <a class="btn btn-primary" href="https://gstoo.de/youth-challenge-anmeldung" target="_blank">Anmelden</a>
-              <div class="countdown justify-content-center" data-countdown='{"to":"2021-10-08"}'>
+              <div class="countdown justify-content-center" data-countdown='{"to":"2022-04-15"}'>
                 <div class="countdown-block countdown-block-days">
                   <svg class="countdown-circle" x="0" y="0" width="120" height="120" viewbox="0 0 120 120" data-progress-days="">
                     <circle class="countdown-circle-bg" cx="60" cy="60" r="58"></circle>
