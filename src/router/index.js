@@ -6,6 +6,7 @@ import OrphansView from "../views/yc_views/OrphansView";
 import TeensView from "../views/yc_views/TeensView";
 import UniversityView from "../views/yc_views/UniversityView";
 import YCRetreat2021 from "../views/events/YCRetreat2021";
+import YCUniversityEvent2021 from "../views/events/YCUniversityEvent2021";
 
 const routes = [
   {
@@ -49,6 +50,12 @@ const routes = [
     path:'/retreat',
     name: 'Retreat',
     component: YCRetreat2021,
+    props: true
+  },
+  {
+    path:'/uniEvent',
+    name: 'uniEvent',
+    component: YCUniversityEvent2021,
     props: true
   },
 ]
