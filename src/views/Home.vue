@@ -9,7 +9,7 @@
 
     <QuoteSection/>
 
-    <Footer></Footer>
+    <Footer/>
 </template>
 
 <script>

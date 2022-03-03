@@ -1,78 +1,68 @@
 <template>
-  <section class="section-xs service-section service-section-fullwidth bg-image context-dark text-center" style="background-image: url(images/destiny-camp.jpg)">
-    <div class="overlay">
-      <div class="service-section-header">
-        <div class="container">
-          <!-- Logo-->
-          <div class="logo"><router-link class="logo-link" to="/"><img class="logo-image-default" src="images/yc_logo_trans.png" alt="FundMe" width="300" height="150"/><img class="logo-image-inverse" src="images/yc_logo_trans.png" alt="FundMe" width="300" height="150"/></router-link></div>
-        </div>
-      </div>
-      <div class="service-section-body">
-        <div class="container">
-          <div class="row row-30 row-xl-55 justify-content-center">
-            <div class="col-md-10 col-lg-8">
-              <h1>Coming Soon</h1>
-              <p class="font-weight-medium">In wenigen Tagen findet unsere Auszeit statt, also verpassen Sie nicht die Gelegenheit, daran teilzunehmen.</p>
-              <!-- Countdown-->
-
-              <div class="countdown justify-content-center" data-countdown='{"to":"2022-04-15"}'>
-                <div class="countdown-block countdown-block-days">
-                  <svg class="countdown-circle" x="0" y="0" width="120" height="120" viewbox="0 0 120 120" data-progress-days="">
-                    <circle class="countdown-circle-bg" cx="60" cy="60" r="58"></circle>
-                    <circle class="countdown-circle-fg clipped" cx="60" cy="60" r="58"></circle>
-                  </svg>
-                  <div class="countdown-wrap">
-                    <div class="countdown-counter" data-counter-days="">00</div>
-                    <div class="countdown-title">days</div>
-                  </div>
-                </div>
-                <div class="countdown-block countdown-block-hours">
-                  <svg class="countdown-circle" x="0" y="0" width="120" height="120" viewbox="0 0 120 120" data-progress-hours="">
-                    <circle class="countdown-circle-bg" cx="60" cy="60" r="58"></circle>
-                    <circle class="countdown-circle-fg clipped" cx="60" cy="60" r="58"></circle>
-                  </svg>
-                  <div class="countdown-wrap">
-                    <div class="countdown-counter" data-counter-hours="">00</div>
-                    <div class="countdown-title">hours</div>
-                  </div>
-                </div>
-                <div class="countdown-block countdown-block-minutes">
-                  <svg class="countdown-circle" x="0" y="0" width="120" height="120" viewbox="0 0 120 120" data-progress-minutes="">
-                    <circle class="countdown-circle-bg" cx="60" cy="60" r="58"></circle>
-                    <circle class="countdown-circle-fg clipped" cx="60" cy="60" r="58"></circle>
-                  </svg>
-                  <div class="countdown-wrap">
-                    <div class="countdown-counter" data-counter-minutes="">00</div>
-                    <div class="countdown-title">minutes</div>
-                  </div>
-                </div>
-                <div class="countdown-block countdown-block-seconds">
-                  <svg class="countdown-circle" x="0" y="0" width="120" height="120" viewbox="0 0 120 120" data-progress-seconds="">
-                    <circle class="countdown-circle-bg" cx="60" cy="60" r="58"></circle>
-                    <circle class="countdown-circle-fg clipped" cx="60" cy="60" r="58"></circle>
-                  </svg>
-                  <div class="countdown-wrap">
-                    <div class="countdown-counter" data-counter-seconds="">00</div>
-                    <div class="countdown-title">seconds</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="service-section-footer">
-        <div class="container">
-          <!-- Copyright-->
-          <p class="rights"><span>&copy; 2021&nbsp;</span><span>Youth-challenge</span><span>. All rights reserved.&nbsp;</span><a class="link link-inherit rights-link" href="privacy-policy.html">Privacy Policy</a></p>
+  <section class="section page-title bg-image context-dark" style="background-image: url(images/destiny-camp.jpg);background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0% 100%;">
+    <Header/>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-xl-8">
+          <h2 class="page-title-text" style="color: orange">Youth Challenge Destiny Camp III 🔥 <br>
+          15. - 17. April 2022</h2>
         </div>
       </div>
     </div>
   </section>
+
+  <section class="section-md bg-transparent">
+    <div class="container">
+      <div class="row row-25 row-xl-55 justify-content-between flex-md-row-reverse align-items-center">
+        <div class="col-sm-6 col-lg-4 text-lg-right">
+          <div class="image-block image-block-left"><img src="images/1920_496/yc_readers.jpg" alt="" width="321" height="333"/>
+            <div class="image-block-embed">
+              <div class="image-block-amount">5.Mose 28:13</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-7">
+          <h2 class="text-decorated text-decorated-large">Youth-Challenge Destiny Camp III </h2>
+          <p class="font-weight-medium">
+            Youthchallenge lädt dich zum Youth-Challenge Destiny Camp III ein.<br>
+            Wichtige Termine:</p><br>
+          <ul>
+            <li>➡ Freitag, 15/04/2022 - ab 14 Uhr </li>
+            <li>➡ Samstag, 16/04/2022</li>
+            <li>➡ Sonntag, 17/04/2022 - bis 14 Uhr Uhr</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <section class="section-md bg-transparent">
+      <div class="container">
+        <div class="row row-15 align-items-center">
+          <div class="col-md-10">
+            <h2 class="text-divider">Willst du teilnehmen ?</h2>
+            <p class="font-weight-medium">Registriere dich auf dieser Plattform, damit wir uns besser organisieren können, um dich zu empfangen.</p>
+
+            <div id="guestoo-registerForm"></div>
+            <iframe border="0" src="https://app.guestoo.de/public/event/245de366-c541-4dcd-8efe-ac90898c383e/frame?hideCookieinfo=true&lang=de&scrollId=guestoo-registerForm"
+                    id="guestooFrame" style="border: none;background-color: #fff;width: 100%;height: 700px;">
+            </iframe>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <Footer/>
 </template>
 <script>
+import Footer from "../../components/Footer";
+import Header from "../../components/Header";
+
 export default {
   name: "YCRetreat2021",
+  components: {Footer, Header}
 }
 </script>
 

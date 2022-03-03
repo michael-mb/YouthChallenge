@@ -1364,6 +1364,7 @@ components.multiswitch = {
 				});
 			}
 
+
 			MultiSwitch( Object.assign( {
 				node: node,
 				event: click,
@@ -1495,6 +1496,7 @@ components.animate = {
 	styles: './components/animate/animate.css',
 	script: './components/current-device/current-device.min.js',
 	init: function ( nodes ) {
+
 		if ( window.xMode || device.macos() ) {
 			nodes.forEach( function ( node ) {
 				let params = parseJSON( node.getAttribute( 'data-animate' ) );
@@ -1508,6 +1510,7 @@ components.animate = {
 					let
 						node = entry.target,
 						params = parseJSON( node.getAttribute( 'data-animate' ) );
+
 
 					if ( params.delay ) node.style.animationDelay = params.delay;
 					if ( params.duration ) node.style.animationDuration = params.duration;
