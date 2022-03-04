@@ -24,14 +24,22 @@
           </div>
         </div>
         <div class="col-sm-6 col-lg-7">
-          <h2 class="text-decorated text-decorated-large">Youth-Challenge Destiny Camp III </h2>
+          <h2 class="text-decorated text-decorated-large">Ein neuer Tag! Ein neuer Segen! </h2>
           <p class="font-weight-medium">
-            Youthchallenge lädt dich zum Youth-Challenge Destiny Camp III ein.<br>
+            Das verspricht dir Youth Challenge International beim Destiny Camp 3 vom 15. bis 17. April 2022.<br>
+            Vier Herausforderungen haben wir daher eigens für dich vorbereitet: Es soll dein Sprungbrett für ein erfülltes Leben, voller Exzellenz sein.
+            Hunderte von Challengers in Europa bereiten sich seit Monaten darauf vor und haben sich für dieses Event verabredet, um diesen Schritt gemeinsam mit dir zu gehen!
+            Bist du bereit für großartige und lebensverändernde Überraschungen und Begegnungen?
+            <br>
+            Komm vorbei und überzeuge dich selbst!
+            <br>
+            Bad Homburg v. d. Höhe. Here we come!
+
             Wichtige Termine:</p><br>
           <ul>
             <li>➡ Freitag, 15/04/2022 - ab 14 Uhr </li>
             <li>➡ Samstag, 16/04/2022</li>
-            <li>➡ Sonntag, 17/04/2022 - bis 14 Uhr Uhr</li>
+            <li>➡ Sonntag, 17/04/2022 - bis 14 Uhr</li>
           </ul>
         </div>
       </div>
