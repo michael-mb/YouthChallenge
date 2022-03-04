@@ -37,7 +37,7 @@
                   </li>
                   <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="#">Dance</a>
                   </li>
-                  <li class="navbar-navigation-dropdown-item"><a class="navbar-navigation-dropdown-link" href="#">YouthChallenge</a>
+                  <li class="navbar-navigation-dropdown-item"><router-link class="navbar-navigation-dropdown-link" to="/retreat">YouthChallenge</router-link>
                   </li>
                 </ul>
               </li>
