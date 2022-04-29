@@ -1,21 +1,39 @@
 <template>
-  <section class="section-md bg-transparent">
+  <section class="section page-title bg-image context-dark" style="background-image: url(images/destiny-camp.jpg);background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0% 100%;">
+    <Header/>
     <div class="container">
-      <div class="row row-15 align-items-center">
-        <div class="col-md-10">
-          <h2 class="text-divider">Hast du daran teilgenommen ? Gib uns bitte dein Feedback ? </h2>
-          <p class="font-weight-medium">Teile deine Eindrücke mit uns
-            <a href="#" onclick="fby.push(['showForm', '16188']);return false;">Feedback geben</a></p>
+      <div class="row">
+        <div class="col-md-10 col-xl-8">
+          <h2 class="page-title-text" style="color: orange">Youth Challenge Destiny Camp III 🔥 <br>
+          15. - 17. April 2022</h2>
         </div>
       </div>
     </div>
   </section>
+
+    <section class="section-md bg-transparent">
+      <div class="container">
+        <div class="row row-15 align-items-center">
+          <div class="col-md-10">
+            <h2 class="text-divider">Hast du daran teilgenommen ? Gib uns bitte dein Feedback ? </h2>
+            <p class="font-weight-medium">Teile deine Eindrücke mit uns
+              <a href="#" onclick="fby.push(['showForm', '16188']);return false;">Feedback geben</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <Footer/>
 </template>
 <script>
+import Footer from "../../components/Footer";
+import Header from "../../components/Header";
 
 export default {
   name: "YCRetreat2021",
-  components: {}
+  components: {Footer, Header}
 }
 </script>
 
