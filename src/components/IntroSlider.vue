@@ -22,8 +22,8 @@
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="swiper-slide-content">
-                <h1>Von 15.04 bis 17.04 findet unsere Auszeit statt</h1>
-                <router-link class="btn" to="/retreat">Mehr Erfahren</router-link>
+                <h1>Von 15.04 bis 17.04 fand unsere Auszeit statt.</h1>
+                <router-link class="btn" to="/retreat">Feedback Geben</router-link>
               </div>
             </div>
             <div class="swiper-slide">

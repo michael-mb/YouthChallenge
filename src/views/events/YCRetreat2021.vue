@@ -48,14 +48,9 @@
       <div class="container">
         <div class="row row-15 align-items-center">
           <div class="col-md-10">
-            <h2 class="text-divider">Willst du teilnehmen ?</h2>
-            <p class="font-weight-medium">Registriere dich auf dieser Plattform, damit wir uns besser organisieren können, um dich zu empfangen.</p>
-
-            <div id="guestoo-registerForm"></div>
-            <iframe border="0" src="https://app.guestoo.de/public/event/245de366-c541-4dcd-8efe-ac90898c383e/frame?hideCookieinfo=true&lang=de&scrollId=guestoo-registerForm"
-                    id="guestooFrame" style="border: none;background-color: #fff;width: 100%;height: 700px;">
-            </iframe>
-
+            <h2 class="text-divider">Hast du daran teilgenommen ? Gib uns bitte dein Feedback ? </h2>
+            <p class="font-weight-medium">Teile deine Eindrücke mit uns
+              <a href="#" onclick="fby.push(['showForm', '16188']);return false;">Feedback geben</a></p>
           </div>
         </div>
       </div>
