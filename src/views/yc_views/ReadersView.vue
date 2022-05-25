@@ -140,7 +140,7 @@
             <div class="col-6 col-md-4">
               <!-- Counter-->
               <div class="counter counter-bordered">
-                <div class="counter-value"><span data-counter="">9</span><span class="counter-icon fl-bigmug-line-two317"></span>
+                <div class="counter-value"><span data-counter="">20 +</span><span class="counter-icon fl-bigmug-line-two317"></span>
                 </div>
                 <div class="counter-title">Lesesitzungen </div>
               </div>
@@ -148,22 +148,39 @@
             <div class="col-6 col-md-4">
               <!-- Counter-->
               <div class="counter counter-bordered">
-                <div class="counter-value"><span data-counter="">1</span><span class="counter-icon fl-bigmug-line-two317"></span>
+                <div class="counter-value"><span data-counter="">3</span><span class="counter-icon fl-bigmug-line-two317"></span>
                 </div>
-                <div class="counter-title">Lese-Auszeit (07.08.2021)</div>
+                <div class="counter-title">Leseauszeiten</div>
               </div>
             </div>
             <div class="col-6 col-md-4">
               <!-- Counter-->
               <div class="counter counter-bordered">
-                <div class="counter-value"><span data-counter="">0</span><span class="counter-icon fl-bigmug-line-two317"></span>
+                <div class="counter-value"><span data-counter="">156</span><span class="counter-icon fl-bigmug-line-two317"></span>
                 </div>
-                <div class="counter-title">Runde Tische (Kommt noch)</div>
+                <div class="counter-title">Teilnehmer </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+
+      <section class="section-md pb-0">
+        <div class="container container-wide">
+          <h2 class="text-center" data-animate='{"class":"fadeIn"}'>Kommt uns lass uns lesen</h2>
+          <div class="owl-carousel owl-carousel-bordered owl-nav-lg" data-owl="{&quot;nav&quot;:true,&quot;margin&quot;:0}" data-autoplay="false" data-loop="false" data-items="1" data-md-items="2" data-xl-items="3" data-xxl-items="4" data-animate='{"class":"fadeInUpBig"}'>
+            <DepartmentElem title="Qui suis je ?" description=""
+                            image-link="images/books/qui_suis_je.jpeg" page-link="https://meet.jit.si/ReadingClub"/>
+            <DepartmentElem title="De la prison à la louange" description=""
+                            image-link="images/books/prison_louange.jpeg" page-link="https://meet.jit.si/ReadingClub"/>
+            <DepartmentElem title="Tu peux recevoir un ❤️ pur" description=""
+                            image-link="images/books/coeur_pur.jpeg" page-link="https://meet.jit.si/ReadingClub"/>
+            <DepartmentElem title="Jüngerschaft" description=""
+                            image-link="images/books/discipolat.jpeg" page-link="https://meet.jit.si/ReadingClub"/>
+          </div>
+        </div>
+      </section>
+
     </section>
 
     <Footer/>
@@ -172,9 +189,10 @@
 <script>
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+import DepartmentElem from "../../components/department/DepartmentElem";
 export default {
   name: "ReadersView",
-  components: {Footer, Header},
+  components: {DepartmentElem, Footer, Header},
 }
 </script>
 
