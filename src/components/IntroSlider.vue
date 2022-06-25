@@ -22,7 +22,7 @@
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="swiper-slide-content">
-                <h1>Von 01.06 bis 30.08 kannst du bei uns ein Musikinstrument lernen 😮 und Gott anzubeten 🔥</h1>
+                <h1>Von 01.06 bis 30.08 kannst du bei uns ein Musikinstrument lernen 😮 und Gott anbeten 🔥</h1>
                 <a class="btn"
                    href="https://docs.google.com/forms/d/e/1FAIpQLSfZDdl03MPFFbxNFjyiqOFsgZlckpmyVvTr9su8EBJ7w5Bazw/viewform?usp=sf_link"
                    target="_blank">Mach mit </a>
