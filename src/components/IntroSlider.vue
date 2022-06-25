@@ -6,7 +6,7 @@
         <div class="swiper-container swiper-double-container-image" data-swiper-double-image data-animate='{"class":"fadeIn"}'>
 
           <div class="swiper-wrapper">
-            <div class="swiper-slide" style="background-image: url(images/destiny-camp.jpg); position:relative;">
+            <div class="swiper-slide" style="background-image: url(images/musik-courses.jpg); position:relative;">
               <div class="black-opacity"></div>
             </div>
             <div class="swiper-slide" style="background-image: url(images/727_930/youth_1.jpg)"></div>
@@ -22,8 +22,10 @@
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="swiper-slide-content">
-                <h1>Von 15.04 bis 17.04 fand unsere Auszeit statt.</h1>
-                <router-link class="btn" to="/retreat">Feedback Geben</router-link>
+                <h1>Von 01.06 bis 30.08 kannst du bei uns ein Musikinstrument lernen 😮 und Gott anzubeten 🔥</h1>
+                <a class="btn"
+                   href="https://docs.google.com/forms/d/e/1FAIpQLSfZDdl03MPFFbxNFjyiqOFsgZlckpmyVvTr9su8EBJ7w5Bazw/viewform?usp=sf_link"
+                   target="_blank">Mach mit </a>
               </div>
             </div>
             <div class="swiper-slide">
